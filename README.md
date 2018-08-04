@@ -1,3 +1,5 @@
+:tada: Starting with version 0.8.0 it's css free.
+
 # semantic-ui-calendar-react
 Datepicker react component based on semantic-ui-react components
 
@@ -12,7 +14,8 @@ Here you can find a live example https://arfedulov.ru/examples/semantic-ui-calen
 npm i semantic-ui-calendar-react
 ```
 
-Also you need to add css in your html:
+:warning: With version < 0.8.0 you also need to to add css in your html:
+
 ```html
 <link rel="stylesheet" type="text/css" href="node_modules/semantic-ui-calendar-react/dist/css/calendar.min.css">
 ```
@@ -135,6 +138,7 @@ moment.locale('ru')
 | ``maxDate`` | {string\|moment} Maximum date that can be selected |
 | ``minDate`` | {string\|moment} Minimum date that can be selected |
 | ``inlineLabel`` | {bool} A field can have its label next to instead of above it. |
+| ``closeOnMouseLeave`` | {bool} Should close when cursor leaves calendar popup. Default: ``true`` |
 
 ### TimeInput
 
@@ -145,6 +149,7 @@ moment.locale('ru')
 | ``inline`` | {bool} If ``true`` inline picker displayed. Default: ``false`` |
 | ``closable`` | {bool} If true, popup closes after selecting a time   |
 | ``inlineLabel`` | {bool} A field can have its label next to instead of above it. |
+| ``closeOnMouseLeave`` | {bool} Should close when cursor leaves calendar popup. Default: ``true`` |
 
 ### DateTimeInput
 
@@ -162,6 +167,7 @@ moment.locale('ru')
 | ``maxDate`` | {string\|moment} Maximum date that can be selected |
 | ``minDate`` | {string\|moment} Minimum date that can be selected |
 | ``inlineLabel`` | {bool} A field can have its label next to instead of above it. |
+| ``closeOnMouseLeave`` | {bool} Should close when cursor leaves calendar popup. Default: ``true`` |
 
 ### DatesRangeInput
 
@@ -176,6 +182,7 @@ moment.locale('ru')
 | ``maxDate`` | {string\|moment} Maximum date that can be selected |
 | ``minDate`` | {string\|moment} Minimum date that can be selected |
 | ``inlineLabel`` | {bool} A field can have its label next to instead of above it. |
+| ``closeOnMouseLeave`` | {bool} Should close when cursor leaves calendar popup. Default: ``true`` |
 
 ### YearInput
 
@@ -186,6 +193,7 @@ moment.locale('ru')
 | ``inline`` | {bool} If ``true`` inline picker displayed. Default: ``false`` |
 | ``closable`` | {bool} If true, popup closes after selecting a year   |
 | ``inlineLabel`` | {bool} A field can have its label next to instead of above it. |
+| ``closeOnMouseLeave`` | {bool} Should close when cursor leaves calendar popup. Default: ``true`` |
 
 ### MonthInput
 
@@ -196,3 +204,4 @@ moment.locale('ru')
 | ``inline`` | {bool} If ``true`` inline picker displayed. Default: ``false`` |
 | ``closable`` | {bool} If true, popup closes after selecting a month   |
 | ``inlineLabel`` | {bool} A field can have its label next to instead of above it. |
+| ``closeOnMouseLeave`` | {bool} Should close when cursor leaves calendar popup. Default: ``true`` |
