@@ -1,6 +1,9 @@
 node_modules
 dist
 calendar.bundle.js
+calendar.bundle.js.map
+# rely on yarn.lock instead
+package-lock.json
 
 ### STS ###
 .apt_generated
@@ -23,3 +26,6 @@ nbbuild/
 dist/
 nbdist/
 .nb-gradle/
+
+### OS X ###
+.DS_Store
